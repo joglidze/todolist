@@ -1,0 +1,41 @@
+.list-cont{
+    margin:auto;
+    width:500px;
+    display: grid;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    height:30vh;
+}
+
+.styles{
+    border:solid 1px;
+    border-radius: 20px; 
+    
+}
+.display{
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center;
+   width: 500px;
+    padding:10px 20px;
+}
+
+
+
+
+button{
+    padding:5px;
+    width:50px;  
+    border:none;
+    border-radius: 5px;
+    background-color: rgb(200, 11, 11);
+    cursor: pointer;
+    margin:10px;
+    font-weight: bold;
+    color:white;
+    
+  }
+  button:hover{
+    background-color: rgba(6, 95, 6, 0.755);
+  }

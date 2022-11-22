@@ -1,0 +1,46 @@
+.input-cont {
+    
+    height: 50vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  
+  max-width: 600px;
+  margin:auto;
+  text-align: center;
+  
+  
+}
+.error{
+  text-align: left;
+  margin-left:25px;
+  color:red;
+}
+.task-enough{
+  text-align: center;
+  color:greenyellow
+}
+h1{
+  font-size: 5em;
+}
+
+input{
+  width:80%;
+  padding:5px;
+  border-radius: 5px;
+  border:none;
+  outline: none;
+}
+
+button{
+  padding:5px;
+  width:50px;  
+  border:none;
+  border-radius: 5px;
+  background-color: green;
+  cursor: pointer;
+  margin:10px;
+}
+button:hover{
+  background-color: rgba(6, 95, 6, 0.755);
+}

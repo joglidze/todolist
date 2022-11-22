@@ -1,0 +1,26 @@
+<div class="input-cont">
+  <div class="flex">
+    <div>
+      <h1>ThreeDoList App</h1>
+    </div>
+    <div>
+      <input type="text" (input)="getInput($event)" class="input1" />
+     
+      <button (click)="sendInput()">+</button>
+      
+       
+    </div>
+    <div class="error" *ngIf="!active">
+    <span>This field can not be empty</span>
+  </div>
+  </div>
+  
+</div>
+<div class="task-enough" *ngIf="!taskError" >
+  <h3>Three task is enough</h3>
+</div>
+<div>
+  <app-list [task]="lists">
+    
+  </app-list>
+</div>

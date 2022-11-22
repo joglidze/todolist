@@ -1,0 +1,10 @@
+<div class="list-cont styles" >
+  <div class="display" *ngFor="let do of task; let i = index">
+    <div >
+      <li>{{ do }}</li>
+    </div>
+    <div>
+      <button (click)="delTask()">DEL</button>
+    </div>
+  </div>
+</div>
